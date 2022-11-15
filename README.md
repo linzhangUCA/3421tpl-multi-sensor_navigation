@@ -1,7 +1,7 @@
-# Project 2: Wall Bouncer
+# Final Project: Preliminary Navigation
 
 ## Background
-[Roomba](https://www.irobot.com/en_US/roomba.html) is a very popular housekeeping robot. Despite the new technologies that are introduced to recent products, the navigation strategy of this robot can be fairly simple. In this project, we are going to turn our robots into Roomba replications. We will implement "FORWARD -> TURN" strategy to maneuver our robots in a closed space without running into the the walls.
+Navigation is an essential functionality for any mobile robot. 
 
 You are expected to
 - Indicate robot's status using LEDs.
