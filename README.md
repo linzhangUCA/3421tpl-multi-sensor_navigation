@@ -1,39 +1,39 @@
 # Final Project: Preliminary Navigation
 
 ## Background
-Navigation is an essential functionality for any mobile robot. 
+Navigation is an essential functionality for any mobile robot. A robot is usually expected to autonomously navigate from a location to another, with the helps from various sensors. In this project, we'll implement autonomous navigation with our robots.
 
 You are expected to
-- Indicate robot's status using LEDs.
-- Change robot's working mode using a switch button.
-- Move robot around without hitting the walls.
+- Navigate the robot from the starting line to the marker out of the classroom. 
+- Use at least one sensor (you are encouraged to use more).
+
+## Procedure:
+1. Set the robot behind the staring line.
+2. Press the button to start navigation.
+3. The robot should stop and terminate the navigation at the finish marker
 
 ## Requirements:
-- The robot has 2 modes: **WORK** and **PAUSE**. 
-- Three LEDs (`GREEN`, `YELLOW`, `RED`) will be used to indicate the robot's status.
-- A button will be used to switch modes bewteen **WORK** and **PAUSE**.
-- A ultrasonic distance sensor will be used to detect walls.
-- A motor driver board will be used to drive the DC motors.
 
-### (70%) Programming
-1. (10%) Check sensor's health: 
-    - Check distance sensor's health.
-    - Blink `GREEN` LED at frequency of 4 Hz for 2 seconds to indicate the distance sensor is working correctly. 
-    - Robot enters **PAUSE** mode if passed self-check.
-2. (5%) **PAUSE** mode: 
-    - `GREEN` LED endlessly fades in and fades out with frequency of 1 Hz. 
-    - Robot stops.
-    - Press and release the button to switch mode to **WORK**.
-3. (30%) **WORK** mode: 
-    - `GREEN` LED is constantly turned on. 
-    - Robot moves forward, turn a certain angle before getting too close to a wall. 
-    - Press and release the button to switch mode to **PAUSE**.
-4. (25%) Time **WORK** mode:
-    - If the accumulated **WORK** time exceeds 30 seconds, turn on `YELLOW` LED to indicate "low battery". Set robot speed to 75% as in **WORK** mode. 
-    - If accumulated **WORK** time over 40 seconds, turn off `YELLOW` LED. Blink `RED` LED at frequency of 10 Hz for 2 seconds to indicate "out of energy".
-    - After `RED` LED blinks over, turn all the LEDs off, stop the robot and shutdown the system. 
+### (70%) Programming:
+- (10%) Work modes:
+    - The robot has 3 modes: **WORK**, **PAUSE** and **OFF**. 
+    - One LED will be used to indicate the robot's status ("always on" for **WORK**, "fade-in-fade-out" for **PAUSE**, "off" for **OFF**).
+    - A button will be used to switch modes bewteen **WORK** and **PAUSE**.
+
+- (15%) Checkpoint 1
+    - The robot successfully passes the `Checkpoint 1` line starting from the `Start` line.
+- (15%) Checkpoint 2
+    - The robot successfully passes the `Checkpoint 2` line starting from the `Start` line.
+- (15%) Checkpoint 3
+    - The robot successfully passes the `Checkpoint 3` line starting from the `Start` line.
+- (15%) Finish Marker
+    - (5%) The robot successfully reached the `Finish` marker starting from the `Start` line.
+    - (5%) The robot stopped at the `Finish` marker within 0.5 meters radius.
+    - (5%) Turn off everything (except Raspberry Pi) on board.
+    
 
 ### (30%) Documentation
+A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
 1. (5%) Part List Table: list the names, descriptions and quantities of physical components used in this project.
 2. (10%) Wiring Diagram: attach a drawing to illustrate components wiring.
 3. (15%) Summary: describe technical details
