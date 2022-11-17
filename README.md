@@ -9,7 +9,7 @@ You are expected to
     - Ultrasonic distance sensor
     - Lidar
     - Camera
-    - 
+
 **Note: DO NOT HARD CODE. Use at least one sensor. Or, 45% credits will not be given.**
 
 ## Procedure:
