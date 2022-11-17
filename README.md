@@ -1,11 +1,14 @@
 # Final Project: Preliminary Navigation
 
 ## Background
-Navigation is an essential functionality for any mobile robot. A robot is usually expected to autonomously navigate from a location to another, with the helps from various sensors. In this project, we'll implement autonomous navigation with our robots.
+Navigation is an essential functionality for any mobile robot. Autonomous navigation can be achieved with the help of all the sensors and actuators. In this project, we'll realize basic autonomous navigation with our robots.
 
 You are expected to
 - Navigate the robot from the starting line to the marker out of the classroom. 
-- Use at least one sensor (you are encouraged to use more).
+- Use at least one sensor from the following options:
+    - Ultrasonic distance sensor
+    - Lidar
+    - Camera
 
 ## Procedure:
 1. Set the robot behind the staring line.
