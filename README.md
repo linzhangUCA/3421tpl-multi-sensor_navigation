@@ -17,8 +17,8 @@ You are expected to
 
 ## Requirements:
 
-### (50%) Programming:
-- (5%) Work modes:
+### (50%) Robot Performance:
+- (5%) Modes:
     - The robot has 3 modes: **WORK**, **PAUSE** and **OFF**. 
     - One LED will be used to indicate the robot's status ("always on" for **WORK**, "fade-in-fade-out" for **PAUSE**, "off" for **OFF**).
     - A button will be used to switch modes bewteen **WORK** and **PAUSE**.
