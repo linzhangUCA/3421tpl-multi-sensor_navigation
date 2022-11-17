@@ -34,6 +34,8 @@ You are expected to
     - (5%) The robot stopped at the `Finish` marker within 0.5 meters radius.
     - (5%) Turn off everything (except Raspberry Pi) on board.
     
+    > Note: you can guide your robot using ArUco marker in the final stage.
+    
 
 ### (50%) Documentation
 A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
