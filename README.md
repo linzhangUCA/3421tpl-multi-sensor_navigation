@@ -3,6 +3,12 @@
 ## Background
 Navigation is an essential functionality for any mobile robot. Autonomous navigation can be achieved with the help of all the sensors and actuators. In this project, we'll realize basic autonomous navigation with our robots.
 
+## Procedure:
+1. Set the robot behind the staring line.
+2. Press the button to start navigation.
+3. The robot should stop and terminate the navigation at the finish marker
+
+## Requirements:
 You are expected to
 - Navigate the robot from the starting line to the marker out of the classroom. 
 - Use at least one sensor from the following options:
@@ -11,13 +17,6 @@ You are expected to
     - Camera
 
 **Note: DO NOT HARD CODE. Use at least one sensor. Or, 45% credits will not be given.**
-
-## Procedure:
-1. Set the robot behind the staring line.
-2. Press the button to start navigation.
-3. The robot should stop and terminate the navigation at the finish marker
-
-## Requirements:
 
 ### (50%) Robot Performance:
 - (5%) Modes:
