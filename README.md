@@ -9,6 +9,7 @@ You are expected to
     - Ultrasonic distance sensor
     - Lidar
     - Camera
+    - 
 **Note: DO NOT HARD CODE. Use at least one sensor. Or, 45% credits will not be given.**
 
 ## Procedure:
@@ -35,7 +36,7 @@ You are expected to
     - (5%) The robot stopped at the `Finish` marker within 0.5 meters radius.
     - (5%) Turn off everything (except Raspberry Pi) on board.
     
-    > Note: you can guide your robot using ArUco marker in the final stage.
+**Note: you can guide your robot using ArUco marker after the robot passed Checkpoint 3.**
     
 
 ### (50%) Documentation
