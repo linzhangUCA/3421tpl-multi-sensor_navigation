@@ -20,24 +20,24 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
     - **Start the robot on or behind the "Stage 1 Start Line"**.
     - Plan a good trajectory.
     - Calculate encoder counts based on planned distances.
-    - Refer to [Assignment 5](https://classroom.github.com/a/vAs41PAP).
     - (5%) **Stop at the "Stage 2 Start Area" in the end**.
+    - Refer to [Assignment 5](https://classroom.github.com/a/vAs41PAP).
 
 - (20%) Stage 1 - Lidar Navigation:
     - Use boxes and wall to do wall following.
-    - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
     - (5%) **Stop at the "Stage 3 Start Area" in the end**.
     -  **Hint: you can hard code time to stop this stage**
+    - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
 
 - (20%) Stage 3 - Camera Navigation:
     - Use a ArUco to guide the robot approaching the final destination.
-    - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
     - (5%) **Stop within 1 meter to the goal**.
+    - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
     
 #### Helpful Resources:
-[Need send data from computer to micro-controller?]()
-[Need send data from micro-controller to computer?]()
-[Need remotely access RPi?]()
+- [Need send data from computer to micro-controller?]()
+- [Need send data from micro-controller to computer?]()
+- [Need remotely access RPi?]()
 
 ### (40%) Documentation
 A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
