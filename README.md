@@ -35,7 +35,7 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
     - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
     
 #### Helpful Resources:
-- [Need send data from computer to micro-controller?]()
+- [Need send data from computer to micro-controller?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/e9c1038da02bca8127d7bb059af717bda7670a1a/example_computer_talker_listener.py)
 - [Need send data from micro-controller to computer?]()
 - [Need remotely access RPi?]()
 
