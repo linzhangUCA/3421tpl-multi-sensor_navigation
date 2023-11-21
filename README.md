@@ -37,7 +37,7 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
 #### Helpful Resources:
 - [Need send data from computer to micro-controller?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/e9c1038da02bca8127d7bb059af717bda7670a1a/example_computer_talker_listener.py)
 - [Need send data from micro-controller to computer?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/9f3da94dea0d3793ad8117b58b8f6c77060568cf/example_pico_listener_talker.py)
-- [Need remotely access RPi?]()
+- [Need remotely access RPi?](https://www.realvnc.com/en/connect/download/viewer/)
 
 ### (40%) Documentation
 A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
