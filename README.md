@@ -1,20 +1,15 @@
-# Final Project: Preliminary Navigation
+# Final Project (Project 3): Multi-Sensor Navigation
 
 ## Background
-Navigation is an essential functionality for any mobile robot. Autonomous navigation can be achieved with the help of all the sensors and actuators. In this project, we'll realize basic autonomous navigation with our robots.
-
-## Procedure:
-1. Set the robot behind the staring line.
-2. Press the button to start navigation.
-3. The robot should stop and terminate the navigation at the finish marker
+Navigation is an essential functionality for any mobile robot (e.g. [Warthog](https://youtu.be/GAveEaNZZZE?si=BLWMSZ36F_Ti4tfm), [Roomba](https://youtu.be/CvZTF6YNZUw?si=JsgiMpYMYitBodM5), [Proteus](https://youtu.be/LUnZXBL_lqA?si=6UPZwneYxQJavZvq), [custom robot](https://youtu.be/jkoGkAd0GYk?si=mJk2F5EOqjExs9uL), etc.). To achieve autonomous navigation, some robots rely on complicated mathematical models, and some require fine maps. However, even without these more advanced tools, we can still navigate the robots we have built in Robotics I. In this project, we will navigate our robots through out of the maze in LSCA 105.
 
 ## Requirements:
-You are expected to
-- Navigate the robot from the starting line to the marker out of the classroom. 
-- Use at least one sensor from the following options:
-    - Ultrasonic distance sensor
-    - Lidar
-    - Camera
+Start the robot at he starting line. The robot needs to autonomously navigate to the destinition using all kinds of sensors. The navigation is broken down into 3 stages with 3 different but essential sensors:
+1. Encoder navigation
+2. Lidar navigation
+3. Camera navigation
+The 3 sensors listed above are mandatory in the corresponding stage. **You cannot use any of these 3 in other stages (e.g. CANNOT use encoder in Lidar navigation)**. However, you are welcome to include sensors not on this list to help you complete the navigation.
+![]()
 
 **Note: DO NOT HARD CODE. Use at least one sensor. Or, 45% credits will not be given.**
 
