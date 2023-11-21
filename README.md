@@ -8,33 +8,38 @@ Start the robot at the starting line. The robot needs to autonomously navigate t
 1. Encoder navigation
 2. Lidar navigation
 3. Camera navigation
+
 The 3 sensors listed above are mandatory in the corresponding stage. **You cannot use any of these 3 in other stages (e.g. CANNOT use encoder in Lidar navigation)**. However, you are welcome to include sensors not on this list to help you complete the navigation.
 
 ![ms_nav](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/2af4a8d311817a89cc7bffb8ad65318be96f1273/multi-sensor_navigation.png)
 
-**Note: DO NOT HARD CODE. Use at least one sensor. Or, 45% credits will not be given.**
 
-### (50%) Robot Performance:
-- (5%) Modes:
-    - The robot has 3 modes: **WORK**, **PAUSE** and **OFF**. 
-    - One LED will be used to indicate the robot's status ("always on" for **WORK**, "fade-in-fade-out" for **PAUSE**, "off" for **OFF**).
-    - A button will be used to switch modes bewteen **WORK** and **PAUSE**.
+### (60%) Coding:
+As there are more more than 1 solutions, the only criterion is to navigate use the designated sensor as the main source.  
+- (20%) Stage 1 - Encoder Navigation:
+    - **Start the robot on or behind the "Stage 1 Start Line"**.
+    - Plan a good trajectory.
+    - Calculate encoder counts based on planned distances.
+    - Refer to [Assignment 5](https://classroom.github.com/a/vAs41PAP).
+    - (5%) **Stop at the "Stage 2 Start Area" in the end**.
 
-- (10%) Checkpoint 1
-    - The robot successfully passes the `Checkpoint 1` line starting from the `Start` line.
-- (10%) Checkpoint 2
-    - The robot successfully passes the `Checkpoint 2` line starting from the `Start` line.
-- (10%) Checkpoint 3
-    - The robot successfully passes the `Checkpoint 3` line starting from the `Start` line.
-- (15%) Finish Marker
-    - (5%) The robot successfully reached the `Finish` marker starting from the `Start` line.
-    - (5%) The robot stopped at the `Finish` marker within 0.5 meters radius.
-    - (5%) Turn off everything (except Raspberry Pi) on board.
+- (20%) Stage 1 - Lidar Navigation:
+    - Use boxes and wall to do wall following.
+    - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
+    - (5%) **Stop at the "Stage 3 Start Area" in the end**.
+    -  **Hint: you can hard code time to stop this stage**
+
+- (20%) Stage 3 - Camera Navigation:
+    - Use a ArUco to guide the robot approaching the final destination.
+    - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
+    - (5%) **Stop within 1 meter to the goal**.
     
-**Note: you can guide your robot using ArUco marker after the robot passed Checkpoint 3.**
-    
+#### Helpful Resources:
+[Need send data from computer to micro-controller?]()
+[Need send data from micro-controller to computer?]()
+[Need remotely access RPi?]()
 
-### (50%) Documentation
+### (40%) Documentation
 A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
 1. (20%) Methods
 2. (5%) Part List.
