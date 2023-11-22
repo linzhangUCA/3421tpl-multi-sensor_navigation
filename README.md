@@ -4,7 +4,7 @@
 Navigation is an essential functionality for any mobile robot (e.g. [Warthog](https://youtu.be/GAveEaNZZZE?si=BLWMSZ36F_Ti4tfm), [Roomba](https://youtu.be/CvZTF6YNZUw?si=JsgiMpYMYitBodM5), [Proteus](https://youtu.be/LUnZXBL_lqA?si=6UPZwneYxQJavZvq), [custom robot](https://youtu.be/jkoGkAd0GYk?si=mJk2F5EOqjExs9uL), etc.). To achieve autonomous navigation, some robots rely on complicated mathematical models, and some require fine maps. However, even without these more advanced tools, we can still navigate the robots we have built in Robotics I. In this project, we will navigate our robots through out of the maze in LSCA 105.
 
 ## Requirements:
-Start the robot at the starting line. The robot needs to autonomously navigate to the destinition using all kinds of sensors. The navigation is broken down into 3 stages with 3 different but essential sensors:
+The robot needs to autonomously navigate to the destinition using all kinds of sensors. The navigation is broken down into 3 stages with 3 different but essential sensors:
 1. Encoder navigation
 2. Lidar navigation
 3. Camera navigation
@@ -30,7 +30,7 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
     - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
 
 - (20%) Stage 3 - Camera Navigation:
-    - Use a ArUco to guide the robot approaching the final destination.
+    - Use an ArUco to guide the robot approaching the final destination.
     - (5%) **Stop within 1 meter to the goal**.
     - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
     
