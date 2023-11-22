@@ -15,7 +15,8 @@ The 3 sensors listed above are mandatory in the corresponding stage. **(e.g. You
 
 
 ### (60%) Coding:
-As there are more more than 1 solutions, the only criterion is to navigate use the designated sensor as the main source.  
+- Please upload your code to this repository. Please indicate which ones are supposed to run on the computer, and which ones are for the Pico board.
+- As there are more more than 1 solutions, the only criterion is to navigate use the designated sensor as the main source.  
 - (20%) Stage 1 - Encoder Navigation:
     - **Start the robot on or behind the "Stage 1 Start Line"**.
     - Plan a good trajectory.
@@ -23,8 +24,8 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
     - (5%) **Stop at the "Stage 2 Start Area" in the end**.
     - Refer to [Assignment 5](https://classroom.github.com/a/vAs41PAP).
 
-- (20%) Stage 1 - Lidar Navigation:
-    - Use boxes and wall to do wall following.
+- (20%) Stage 2 - Lidar Navigation:
+    - Use walls to do wall following.
     - (5%) **Stop at the "Stage 3 Start Area" in the end**.
     -  **Hint: you can hard code time to stop this stage**
     - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
@@ -33,6 +34,7 @@ As there are more more than 1 solutions, the only criterion is to navigate use t
     - Use an ArUco to guide the robot approaching the final destination.
     - (5%) **Stop within 1 meter to the goal**.
     - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
+ 
     
 #### Helpful Resources:
 - [Need send data from computer to micro-controller?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/e9c1038da02bca8127d7bb059af717bda7670a1a/example_computer_talker_listener.py)
