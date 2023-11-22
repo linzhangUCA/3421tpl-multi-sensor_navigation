@@ -9,7 +9,7 @@ The robot needs to autonomously navigate to the destinition using all kinds of s
 2. Lidar navigation
 3. Camera navigation
 
-The 3 sensors listed above are mandatory in the corresponding stage. **(e.g. You CANNOT use encoder in Lidar navigation stage)**. However, you are welcome to include sensors not on this list to help you complete the navigation.
+The 3 sensors listed above are mandatory in the corresponding stage. You cannot use a sensor in a non-dominate stage. (**e.g. You CANNOT use encoder in Lidar/Camera navigation stage)**. However, you are welcome to include sensors not on this list to help you complete the navigation.
 
 ![ms_nav](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/2af4a8d311817a89cc7bffb8ad65318be96f1273/multi-sensor_navigation.png)
 
