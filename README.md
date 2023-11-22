@@ -66,4 +66,4 @@ Assuming you are helping people to build a replica of your robot. Please complet
 > Your goal is to help people understand this project. Describe your navigation methods in every stage. And all the related technical details (etc. sensors, motor speed, workflows, algorithms, etc.). You are encouraged to draw illustrative diagrams or upload assistive files.
 
 ## Summary
-> Summarize the project. State the achievements of your robot. Add more details that are related to your robot (e.g. future designs, ideas, discussions, etc.). Any supplemental materials are welcome. 
+> Summarize the project. State the achievements of your robot. Add more supplemental materials (e.g. future designs, ideas, discussions, etc.).
