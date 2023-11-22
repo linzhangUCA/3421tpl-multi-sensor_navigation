@@ -43,20 +43,26 @@ The 3 sensors listed above are mandatory in the corresponding stage. **(e.g. You
 
 ### (40%) Documentation
 A well-documented project can help people who are interested to follow. Also, it will be helpful if you want to continue the work after a while.  
-1. (20%) Methods
-2. (5%) Part List.
-3. (15%) Wiring Diagram.
-4. (10%) Summary
+1. (5%) Part List.
+2. (15%) Wiring Diagram.
+3. (15%) Approaches
+4. (5%) Summary
 
-## Methods
-> Describe the navigation methods and all the related technical details (etc. sensors, motor speed offset, algorithms). You are encouraged to draw illustrative diagrams or upload assistive files.
+## Approaches
+> Describe your navigation methods and all the related technical details (etc. sensors, motor speed offset, algorithms). You are encouraged to draw illustrative diagrams or upload assistive files.
 
 ## Part List
-> List Name, Description, Quantity for each item (in a table).
+> List all the parts of your robot. Please refer to the [table formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+
+| Name | Description | Quantity |
+| :--- | :---        |  :---:   |
+|      |             |          |
+|      |             |          |
 
 ## Wiring Diagram
-> Create a wiring diagram to illustrate hardware configuration
-> ![image name](link)
+> Create a wiring diagram to illustrate hardware configuration. Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
+
+![image name](link)
 
 ## Summary
-> Summarize the project. State the achievements of your robot. Add more technical details that are related to your robot (e.g. designs, ideas, etc.). Any supplemental materials are welcome to upload/link. 
+> Summarize the project. State the achievements of your robot. Add more details that are related to your robot (e.g. future designs, ideas, discussions, etc.). Any supplemental materials are welcome. 
