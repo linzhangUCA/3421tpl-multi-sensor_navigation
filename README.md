@@ -60,7 +60,7 @@ Assuming you are helping people to build a replica of your robot. Please complet
 ## Wiring Diagram
 > Create a wiring diagram to illustrate hardware configuration. Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
-![image name](link)
+>The image for the wiring diagram is called PW3_CD.png
 
 ## Approaches
 > Your goal is to help people understand this project. Describe your navigation methods in every stage. And all the related technical details (etc. sensors, motor speed, workflows, algorithms, etc.). You are encouraged to draw illustrative diagrams or upload assistive files.
