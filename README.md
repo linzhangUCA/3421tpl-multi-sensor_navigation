@@ -5,11 +5,9 @@ Robotic navigation is all about moving a robot from a location, A to another loc
 
 ## Requirements:
 The navigation is broken down into 3 stages. In each stage, the robot relies on one or two sensors to make right movement.
-1. Encoder navigation
-2. Ultrasonic sensor navigation
-3. Camera navigation
-
-The 3 sensors listed above are dominating in the corresponding stage. The robot cannot use a sensor in a non-dominate stage. (**e.g. The robot CANNOT use encoder in Lidar/Camera navigation stage)**. However, you are welcome to include sensors not on this list to help the robot to complete the navigation.
+1. Encoder navigation: only the encoders are allowed.
+2. Ultrasonic sensor navigation: both encoders and ultrasonic distance sensors are allowed.
+3. Camera navigation: only the camera is allowed.
 
 ![nav](navigation.png)
 
