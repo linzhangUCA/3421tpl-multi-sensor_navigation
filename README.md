@@ -13,8 +13,7 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 
 
 ### (60%) Coding:
-- Please upload your code to this repository. A Python script running on the computer and another python script running on the Pico board are expected. 
-- As there are more more than 1 solutions, the only criterion is to navigate use the designated sensor as the main source.  
+- Please upload your code to this repository. You may have multiple scripts to upload, so organize them well. 
 - (20%) Stage 1 - Encoder Navigation:
     - **Start the robot on or behind the "Stage 1 Start Line"**.
     - You may need to plan a good trajectory first.
