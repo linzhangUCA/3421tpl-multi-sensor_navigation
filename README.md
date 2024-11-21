@@ -43,27 +43,43 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 - [Need the latest base design?](https://github.com/linzhangUCA/homer/blob/main/homer_description/designs/homer_v6.FCStd)
 
 ### (40%) Documentation
-Assuming you are helping people to build a replica of your robot. Please complete the following sections to get them ready and better understand on this project. Please see commented requirements under the title of each section.
-1. (5%) Part List.
-2. (10%) Wiring Diagram.
-3. (20%) Approaches
-4. (5%) Summary
+Complete the following sections in this [README](/README.md) file, so that other people may use it as a guide to replicate this robot.
 
-## Part List
-> List all the parts of your robot. Please refer to the [table formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
+1. (5%) Part List Table
+   - List the names of all the physical components used for this project.
+   - Describe the **functionalities or key specifications** of the corresponding components
+   - Specify quantities of the components used.
+2. (5%) Wiring Diagram
+   - Illustrate your power management.
+   - Illustrate control signal wiring. 
+3. (10%) Mechanical Layout Diagram
+   - Illustrate shapes of key components (It is OKAY to use rectangles for circuit boards).
+   - Illustrate dimensions of key components.
+   - Specify locations and orientations of key components.
+   - **Denote the entities for the Approach section with appropriate symbols.** 
+4. (20%) Approach
+   1. Please state whether the navigation is a kinematics, or statics or dynamics problem.
+   2. Describe the relationship between wheel's travel distance and encoder's pulses counts.
+   3. Derive the equation to compute encoders' pulses counts given the robot's spinning angle around the center of its driving axle.
+   4. Describe/Illustrate your control strategy for the third navigation stage. Software flowcharts are welcome.
+          
+#### Part List Table
+> Please refer to the [table formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
 | Name | Description | Quantity |
 | :--- | :---        |  :---:   |
 |      |             |          |
 |      |             |          |
 
-## Wiring Diagram
-> Create a wiring diagram to illustrate hardware configuration. Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
+#### Mechanical Layout Diagram
+> Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
-![image name](link)
+![layout](link)
 
-## Approaches
-> Your goal is to help people understand this project. Describe your navigation methods in every stage. And all the related technical details (etc. sensors, motor speed, workflows, algorithms, etc.). You are encouraged to draw illustrative diagrams or upload assistive files.
+#### Wiring Diagram
+> Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
-## Summary
-> Summarize the project. State the achievements of your robot. Add more supplemental materials (e.g. future designs, ideas, discussions, etc.).
+![wiring](link)
+
+#### TODO List
+> Describe your robot's speed, distance detection threshold, turning strategy, etc.. Place as many technical details as possible in this section. You are welcome to use more tables and images.
