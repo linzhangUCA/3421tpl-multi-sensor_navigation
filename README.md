@@ -1,4 +1,4 @@
-# Final Project (Project 3): Multi-Sensor Navigation
+# Final Project: Multi-Sensor Navigation
 
 ## Background
 Robotic navigation is all about moving a robot from a location, A to another location, B. Navigation is an essential functionality for any mobile robot (e.g. [Warthog](https://youtu.be/GAveEaNZZZE?si=BLWMSZ36F_Ti4tfm), [Roomba](https://youtu.be/CvZTF6YNZUw?si=JsgiMpYMYitBodM5), [Proteus](https://youtu.be/LUnZXBL_lqA?si=6UPZwneYxQJavZvq), [custom robot](https://youtu.be/jkoGkAd0GYk?si=mJk2F5EOqjExs9uL), etc.). To achieve autonomous navigation, some robots rely on complicated mathematical models, and some require fine maps. The robots we have built can also achieve some navigation tasks without these complicated tools. In this project, we will navigate our robots through out of the maze in LSCA 105 with the help from a few on-board sensors.
@@ -12,31 +12,30 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 ![nav](navigation.png)
 
 
-### (60%) Coding:
+### (60%) Coding and Demonstration:
 - Please upload your code to this repository. You may have multiple scripts to upload, so organize them well. 
 - (20%) Stage 1 - Encoder Navigation:
     - **Start the robot on or behind the "Stage 1 Start Line"**.
     - You may need to plan a good trajectory first.
     - Calculate encoder counts based on planned trajectory.
     - (5%) **Stop at the "Stage 2 Start Area" in the end**.
-    - Refer to [Assignment 5](https://classroom.github.com/a/vAs41PAP).
+    - Refer to [Assignment 5](https://classroom.github.com/a/uDp43j74).
 
-- (20%) Stage 2 - Lidar Navigation:
-    - You may want to use walls to do wall following.
+- (20%) Stage 2 - Ultrasonic Sensor Navigation:
+    - You may want to guide your robot based on its distance to the walls.
+    - You can use encoders to make your robot to go straight and turn specific angles.
     - (5%) **Stop at the "Stage 3 Start Area" in the end**.
-    -  **Hint: you can hard code time to stop this stage**
-    - Refer to [Assignment 6](https://classroom.github.com/a/0LxkqZrp).
+    - Refer to [Assignment 4](https://classroom.github.com/a/MRtWIxLi).
 
 - (20%) Stage 3 - Camera Navigation:
-    - You may find an ArUco marker useful as a target.
-    - You are allowed to move the marker to guide the robot approaching the final destination.
+    - Guide your robot with an ArUco marker.
+    - You can still use encoders and distance sensor, but they are not necessary.
     - (5%) **Stop within 1 meter to the goal**.
-    - Refer to [Robotic Vision's slides](https://linzhanguca.github.io/_docs/robotics_1-2023/1114/vision.pdf).
  
     
 #### Helpful Resources:
-- [Need send data from computer to micro-controller?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/e9c1038da02bca8127d7bb059af717bda7670a1a/example_computer_talker_listener.py)
-- [Need send data from micro-controller to computer?](https://github.com/linzhangUCA/3421tpl-preliminary_navigation/blob/9f3da94dea0d3793ad8117b58b8f6c77060568cf/example_pico_listener_talker.py)
+- [Need RPi to Pico communication?](https://github.com/linzhangUCA/3421example-communicate)
+- [Need to drive and monitor motors?](https://github.com/linzhangUCA/3421example-motor_drivers)
 - [Need remotely access RPi?](https://www.realvnc.com/en/connect/download/viewer/)
 
 ### (40%) Documentation
