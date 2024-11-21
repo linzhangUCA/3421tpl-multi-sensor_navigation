@@ -31,7 +31,11 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
     - Guide your robot with an ArUco marker.
     - You can still use encoders and distance sensor, but they are not necessary.
     - (5%) **Stop within 1 meter to the goal**.
- 
+
+- Miscellaneous:
+    - Only one LED is required (you pick color). Turn it on when any motor is spinning. Turn it off if robot is fully stopped.
+    - You can employ buttons, but they are just optional. 
+  
     
 #### Helpful Resources:
 - [Need RPi to Pico communication?](https://github.com/linzhangUCA/3421example-communicate)
