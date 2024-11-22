@@ -62,7 +62,10 @@ Complete the following sections in this [README](/README.md) file, so that other
    2. Describe the relationship between wheel's travel distance and encoder's pulses counts.
    3. Derive the equation to compute encoders' pulses counts given the robot's spinning angle around the center of its driving axle.
    4. Describe/Illustrate your control strategy for the third navigation stage. Software flowcharts are welcome.
-          
+  
+#### Helpful Resources:
+- [Need to express math equations?](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+  
 #### Part List Table
 > Please refer to the [table formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
 
@@ -71,9 +74,6 @@ Complete the following sections in this [README](/README.md) file, so that other
 |      |             |          |
 |      |             |          |
 
-#### Mechanical Layout Diagram
-> Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
-
 ![layout](link)
 
 #### Wiring Diagram
@@ -81,5 +81,8 @@ Complete the following sections in this [README](/README.md) file, so that other
 
 ![wiring](link)
 
-#### TODO List
+#### Mechanical Layout Diagram
+> Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
+
+#### Approach
 > Describe your robot's speed, distance detection threshold, turning strategy, etc.. Place as many technical details as possible in this section. You are welcome to use more tables and images.
