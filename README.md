@@ -58,9 +58,9 @@ Complete the following sections in this [README](/README.md) file, so that other
    - Specify locations and orientations of key components.
    - **Denote the entities for the Approach section with appropriate symbols.** 
 4. (20%) Approach
-   1. Please state whether the navigation is a kinematics, or statics or dynamics problem.
-   2. Describe the relationship between wheel's travel distance and encoder's pulses counts.
-   3. Derive the equation to compute encoders' pulses counts given the robot's spinning angle around the center of its driving axle.
+   1. Describe the relationship between wheel's travel distance and encoder's pulses counts.
+   2. Derive the equation to compute encoders' pulses counts given the robot's spinning angle around the center of its driving axle.
+   3. Please state whether calculate encoder counts given wheel's travel distance is a kinematics, or statics or dynamics problem.
    4. Describe/Illustrate your control strategy for the third navigation stage. Software flowcharts are welcome.
   
 #### Helpful Resources:
