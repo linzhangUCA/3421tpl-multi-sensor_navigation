@@ -40,7 +40,7 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 #### Helpful Resources:
 - [Need RPi to Pico communication?](https://github.com/linzhangUCA/3421example-communicate)
 - [Need to drive and monitor motors?](https://github.com/linzhangUCA/3421example-motor_drivers)
-- [Need the latest base design?](https://github.com/linzhangUCA/homer/blob/main/homer_description/designs/homer_v6.FCStd)
+- [Need the latest base design with PCB compatibility?](https://github.com/linzhangUCA/homer/blob/main/homer_description/designs/homer_v6.FCStd)
 
 ### (40%) Documentation
 Complete the following sections in this [README](/README.md) file, so that other people may use it as a guide to replicate this robot.
