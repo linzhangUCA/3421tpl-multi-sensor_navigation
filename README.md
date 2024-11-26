@@ -29,9 +29,9 @@ Your robot needs to autonomously navigate out of the LSCA 105. The navigation is
 
 - (20%) Stage 3 - Navigation with camera:
     - Guide your robot with an ArUco marker.
-    - You;ll need to set up communication between Pi and Pico.
+    - You'll need to set up communication between Pi and Pico.
     - (5%) **Stop within 1 meter radius to the goal**.
-    - Refer to Robotic Vision [slides](https://linzhanguca.github.io/_docs/robotics1-2024/1105/vision.pdf)
+    - Refer to Robotic Vision [slides](https://linzhanguca.github.io/_docs/robotics1-2024/1105/vision.pdf).
 
 - Miscellaneous:
     - Only one LED is required (you pick color). Turn it on when any motor is spinning. Turn it off if robot is fully stopped.
@@ -61,9 +61,9 @@ Complete the following sections in this [README](/README.md) file.
    - Specify locations and orientations of key components.
    - **Denote the entities for the Approach section with appropriate symbols.** 
 4. (20%) Approach
-   1. Describe the relationship between wheel's travel distance and encoder's pulses counts.
-   2. Derive the equation to compute encoders' pulses counts given the robot's spinning angle around the center of its driving axle.
-   3. Please state whether calculate encoder counts given wheel's travel distance is a kinematics, or statics or dynamics problem.
+   1. Describe how to calculate an encoder's pulses counts given wheel's travel distance (in meters).
+   2. Describe how to compute encoders' pulses counts, repectively, given the robot's spinning angle (in radians) around the center of its driving axle.
+   3. Please state whether above two problems are kinematics, or statics or dynamics problems.
    4. Describe/Illustrate your control strategy for the third navigation stage. Software flowcharts are welcome.
   
 #### Helpful Resources:
@@ -88,4 +88,4 @@ Complete the following sections in this [README](/README.md) file.
 > Please refer to the [image insertion guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images)
 
 #### Approach
-> Describe your robot's speed, distance detection threshold, turning strategy, etc.. Place as many technical details as possible in this section. You are welcome to use more tables and images.
+> Please refer to the [Math expression guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).
