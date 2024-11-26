@@ -7,7 +7,7 @@ Robotic navigation is all about moving a robot from a location, A to another loc
 The navigation is broken down into 3 stages. In each stage, the robot relies on one or two sensors to make right movement.
 1. Encoder navigation: only the encoders are allowed.
 2. Ultrasonic sensor navigation: both encoders and ultrasonic distance sensors are allowed.
-3. Camera navigation: only the camera is allowed.
+3. Camera navigation: camera is allowed while other sensors are optional.
 
 ![nav](navigation.png)
 
@@ -41,9 +41,10 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 - [Need RPi to Pico communication?](https://github.com/linzhangUCA/3421example-communicate)
 - [Need to drive and monitor motors?](https://github.com/linzhangUCA/3421example-motor_drivers)
 - [Need the latest base design with PCB compatibility?](https://github.com/linzhangUCA/homer/blob/main/homer_description/designs/homer_v6.FCStd)
+- [Need to figure out Pico's wiring on the PCB?](images/pico_wiring.png)
 
 ### (40%) Documentation
-Complete the following sections in this [README](/README.md) file, so that other people may use it as a guide to replicate this robot.
+Complete the following sections in this [README](/README.md) file.
 
 1. (5%) Part List Table
    - List the names of all the physical components used for this project.
