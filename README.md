@@ -6,7 +6,7 @@ Robotic navigation is all about moving a robot from a location, A to another loc
 ## Requirements:
 Your robot needs to autonomously navigate out of the LSCA 105. The navigation is broken down into 3 stages. In each stage, the robot relies on one or two sensors to make right movement.
 1. Encoder navigation: only the encoders are allowed.
-2. Ultrasonic sensor navigation: both encoders and ultrasonic distance sensors are allowed.
+2. Ultrasonic sensor navigation: ultrasonic distance sensor is allowed while the encoders are optional.
 3. Camera navigation: camera is allowed while other sensors are optional. Human aids are expected.
 
 ![nav](images/navigation.png)
@@ -23,7 +23,7 @@ Your robot needs to autonomously navigate out of the LSCA 105. The navigation is
 
 - (20%) Stage 2 - Navigation with ultrasonic sensor:
     - You may want to guide your robot based on its distance to the walls.
-    - You can use encoders to make your robot to go straight and turn specific angles.
+    - You can use encoders to make your robot to go straight and turn specific angles. However, you **CANNOT** rely on the encoders to make your robot travel for a specific distance.
     - (5%) **Stop at the "Stage 3 Start Area" in the end**.
     - Refer to [Assignment 4](https://classroom.github.com/a/MRtWIxLi).
 
