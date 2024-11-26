@@ -63,7 +63,9 @@ Complete the following sections in this [README](/README.md) file.
    - **Denote the entities for the Approach section with appropriate symbols.** 
 4. (20%) Approach
    1. Describe how to calculate an encoder's pulses counts given wheel's travel distance (in meters).
+      ![counts-distance](images/encoder_counts-distance.png)
    2. Describe how to compute encoders' pulses counts, repectively, given the robot's spinning angle (in radians) around the center of its driving axle.
+      ![counts-angle](images/encoder_counts-angle.png)
    3. Please state whether above two problems are kinematics, or statics or dynamics problems.
    4. Describe/Illustrate your control strategy for the third navigation stage. Software flowcharts are welcome.
   
