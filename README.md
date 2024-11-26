@@ -42,6 +42,7 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 - [Need to drive and monitor motors?](https://github.com/linzhangUCA/3421example-motor_drivers)
 - [Need the latest base design with PCB compatibility?](https://github.com/linzhangUCA/homer/blob/main/homer_description/designs/homer_v6.FCStd)
 - [Need to figure out Pico's wiring on the PCB?](images/pico_wiring.png)
+- [Need to jump connect PCB to the motor driver?](images/pcb_wiring.png)
 
 ### (40%) Documentation
 Complete the following sections in this [README](/README.md) file.
