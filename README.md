@@ -34,6 +34,7 @@ Your robot needs to autonomously navigate out of the LSCA 105. The navigation is
     - Refer to Robotic Vision [slides](https://linzhanguca.github.io/_docs/robotics1-2024/1105/vision.pdf).
 
 - Miscellaneous:
+    - For the demonstration, each individual has 5 attempts.
     - Only one LED is required (you pick color). Turn it on when any motor is spinning. Turn it off if robot is fully stopped.
     - You can recruit buttons, but they are just optional. 
 
