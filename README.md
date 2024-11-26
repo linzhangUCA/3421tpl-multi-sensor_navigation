@@ -4,16 +4,16 @@
 Robotic navigation is all about moving a robot from a location, A to another location, B. Navigation is an essential functionality for any mobile robot (e.g. [Warthog](https://youtu.be/GAveEaNZZZE?si=BLWMSZ36F_Ti4tfm), [Roomba](https://youtu.be/CvZTF6YNZUw?si=JsgiMpYMYitBodM5), [Proteus](https://youtu.be/LUnZXBL_lqA?si=6UPZwneYxQJavZvq), [custom robot](https://youtu.be/jkoGkAd0GYk?si=mJk2F5EOqjExs9uL), etc.). To achieve autonomous navigation, some robots rely on complicated mathematical models, and some require fine maps. The robots we have built can also achieve some navigation tasks without these complicated tools. In this project, we will navigate our robots through out of the maze in LSCA 105 with the help from a few on-board sensors.
 
 ## Requirements:
-The navigation is broken down into 3 stages. In each stage, the robot relies on one or two sensors to make right movement.
+Your robot needs to autonomously navigate out of the LSCA 105. The navigation is broken down into 3 stages. In each stage, the robot relies on one or two sensors to make right movement.
 1. Encoder navigation: only the encoders are allowed.
 2. Ultrasonic sensor navigation: both encoders and ultrasonic distance sensors are allowed.
-3. Camera navigation: camera is allowed while other sensors are optional.
+3. Camera navigation: camera is allowed while other sensors are optional. Human aids are expected.
 
 ![nav](images/navigation.png)
 
 
 ### (60%) Coding and Demonstration:
-- Please upload your code to this repository. You may have multiple scripts to upload, so organize them well. 
+- Please upload your code to this repository. You may have multiple scripts to upload, so using the [`scripts`](scripts/) directory is recommended.  
 - (20%) Stage 1 - Navigation with encoders:
     - **Start the robot on or behind the "Stage 1 Start Line"**.
     - You may need to plan a good trajectory first.
