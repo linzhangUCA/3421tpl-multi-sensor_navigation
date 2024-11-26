@@ -31,6 +31,7 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
     - Guide your robot with an ArUco marker.
     - You;ll need to set up communication between Pi and Pico.
     - (5%) **Stop within 1 meter radius to the goal**.
+    - Refer to Robotic Vision [slides](https://linzhanguca.github.io/_docs/robotics1-2024/1105/vision.pdf)
 
 - Miscellaneous:
     - Only one LED is required (you pick color). Turn it on when any motor is spinning. Turn it off if robot is fully stopped.
