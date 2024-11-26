@@ -9,7 +9,7 @@ The navigation is broken down into 3 stages. In each stage, the robot relies on 
 2. Ultrasonic sensor navigation: both encoders and ultrasonic distance sensors are allowed.
 3. Camera navigation: camera is allowed while other sensors are optional.
 
-![nav](navigation.png)
+![nav](images/navigation.png)
 
 
 ### (60%) Coding and Demonstration:
